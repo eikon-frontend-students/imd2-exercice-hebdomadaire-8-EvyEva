@@ -12,3 +12,79 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Lato";
+}
+
+.cart {
+  display: flex;
+  width: 284px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  margin: 50px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+  width: 271px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.productinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.titre {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px; /* 100% */
+  align-self: stretch;
+}
+
+.stock {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+  align-self: stretch;
+}
+
+.prix {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  text-align: end;
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  color: white;
+  display: flex;
+  width: 244px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #0a003c;
+}
+
+.button:hover {
+  background-color: #4924ff;
+}
